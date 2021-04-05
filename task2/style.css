@@ -1,0 +1,89 @@
+body{
+	background-image: url(mathback.jpg);
+	font-family: sans-serif;
+}
+
+.content{
+	width: 70%;
+	height:100%;
+    min-height:900px;
+	margin:auto;
+	background-color: rgba(240,240,240, .99);
+}
+.inputArea{
+    margin: auto;
+    width: 600px;
+    height: 70px;
+    padding-top: 30px;
+    padding-left: 180px;
+}
+
+.intInput{
+	width: 75px;
+	height: 25px;
+	border-radius:10px;
+  	border: 1px solid #eee;
+  	transition: .3s border-color;
+  	text-align: center;
+}
+
+.intInput:hover{
+	border: 1px solid black;
+}
+
+button{
+	border-radius:10px;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	transition: .3s border-color;
+  	width: 80px;
+  	height: 30px;
+  	text-align: center;
+  	font-size: 15px;
+}
+
+button:hover{
+	border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+table{
+	width: 600px;
+	margin: 0 auto;
+	border-width: 3px;
+	border-spacing: 0px;
+	border-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin:0;
+}
+
+th{
+	width: 100px;
+	height: 30px;
+}
+
+tr{
+	transition: 0.2s linear;
+}
+
+td{
+	width: 50px;
+	height: 30px;
+	border-spacing: 0px;
+	border: none;
+	text-align: left;
+	vertical-align: top;
+	text-align: center;
+}
+
+tr:nth-child(odd) {
+	background: rgba(200, 200, 200, 0.4);
+}
+
+.thDel:hover {
+	background-color:rgba(255, 0, 0, 0.1);
+}
